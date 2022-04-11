@@ -18,7 +18,6 @@ export default function aboutus() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
         <Footer/>
       </div>
     )
