@@ -14,4 +14,11 @@
     float: right;
     margin: 16px 0 16px 24px;
   }
+  
+  .nav_profile_pic{
+    position: fixed;
+    right: 50px;
+    width: 30px;
+    object-fit: contain;
+}
 

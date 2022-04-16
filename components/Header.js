@@ -1,4 +1,5 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import { Layout, Menu,Avatar,Button, Breadcrumb } from 'antd';
 import Theam from '../styles/Menu.module.css'
 import ReactDOM from 'react-dom';
@@ -17,6 +18,13 @@ export default function Header() {
         width: "50px",
         height: "30px",
         color: "#000"
+    }
+
+    const router = useRouter()
+
+    const handleClick = (e) => {
+      e.preventDefault()
+      router.push('/kpopprofile')
     }
 
     return (

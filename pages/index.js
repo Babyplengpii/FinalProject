@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import Login from '../components/Login'
 import ReactDOM from 'react-dom';
 import Carousel from '../components/carousel'
 import NewsContent from '../components/NewsContent';
@@ -14,8 +15,9 @@ import ContentBoxsecond from '../components/ContentBoxsecond';
 export default function index() {
   return (
     <div style={{backgroundColor: '#4c4556', height: '100vh'}}>
+      {/* <Login/> */}
       <Header/> 
-      {/* <Carousel/> */}
+            {/* <Carousel/> */}
       <NewsContent />
       <ContentBox />
       <ContentBoxsecond />
