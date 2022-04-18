@@ -18,12 +18,12 @@ export default function ContentBoxprofile() {
   const titleName6 = <div>AESPA (에스파) </div>
   const titleName7 = <div>NCT DREAM (NCT 드림) </div>
   const titleName8 = <div>BAMBAM (밤밤)</div>
-  const titleName9 = <div>CRAVITY (크래비티) </div>
+  const titleName9 = <div>NCT127 (엔시티 127) </div>
   const titleName10 = <div>BLACKPINK (블랙 핑크) </div>
-  const titleName11 = <div>TREASURE (보물)</div>
+  const titleName11 = <div>WINNER(위너)</div>
   const titleName12 = <div>JAYB (제이비) </div>
   const titleName13 = <div>ASTRO (아스트로) </div>
-  const titleName14 = <div>STRAYKIDS (스트레이 키즈)</div>
+  const titleName14 = <div>WAYV (威神V)</div>
   const titleName15 = <div>TWICE (두 배) </div>
   
   
@@ -116,7 +116,7 @@ export default function ContentBoxprofile() {
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://6.viki.io/image/10ec12d3c180496182502a0d189e7c9d.jpeg?s=900x600&e=tt" style={{ width: 300,  borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://s.isanook.com/jo/0/ud/487/2437585/nct127.jpg" style={{ width: 300,  borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName9}
       </Card></Col>   
@@ -137,7 +137,7 @@ export default function ContentBoxprofile() {
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://s359.kapook.com/pagebuilder/21eb102f-c085-4292-b617-f3e16044a8aa.jpg" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://upload.wikimedia.org/wikipedia/commons/1/11/DE_MEDICOTEM_X_WINNER_%EB%A7%88%EC%8A%A4%ED%81%AC%ED%8C%A9_%EB%B8%94%EB%9E%99_CF.png" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName11}
       </Card>
@@ -167,7 +167,7 @@ export default function ContentBoxprofile() {
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://6.viki.io/image/4993ac5fb56443fda3027c224bc06d27.jpeg?s=900x600&e=t" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://i0.wp.com/dudeplace.co/wp-content/uploads/2021/01/wayv.jpg?resize=1000%2C667&ssl=1" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName14}
       </Card>
