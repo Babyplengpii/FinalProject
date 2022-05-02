@@ -8,8 +8,8 @@ import ReactDOM from 'react-dom';
 
 export default function aboutus() {
     return (
-      <div style={{backgroundColor: '#ffff', height: '100vh'}}>
-        <Header/>
+      <div style={{backgroundColor: '#ffff', height: '200vh'}}>
+        <Header/><p></p>
         <Profile/>
       </div>
     )

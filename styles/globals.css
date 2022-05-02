@@ -73,8 +73,45 @@ a {
   height: 100vh;
   
 }
+.col-3 {width: 25%;}
+.col-9 {width: 75%;}
+.col-12 {width: 100%;}
 
 
+.setcenter {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+  
+}
+/* ทำให้น้องอยู่ตรงกลาง + ใส่ฟ้อน (ฟ้อนเซ็ทต่อที่ html ข้างล่าง)*/
 
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 20px;
+} 
+/* ทำให้น้องเป็นคอลัมน์เท่าๆกัน + จัดการโรวคอลัมให้สวย */
+
+.block {
+  display: flex;
+  border-radius: 25px;  
+  background-color: #4c4556;
+  color: #ffffff;
+}
+/* แทน Card ในแอ้นดี */
 

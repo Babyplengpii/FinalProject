@@ -7,9 +7,6 @@ import { Row, Col } from 'antd';
 export default function ContentBoxprofile() {
   const { Meta } = Card;
   
-  
-
-
   const titleName1 = <div>BTS (방탄소년단) </div>
   const titleName2 = <div>IU (아이유)</div>
   const titleName3 = <div>ENHYPEN (엔하이펜) </div>
@@ -25,21 +22,28 @@ export default function ContentBoxprofile() {
   const titleName13 = <div>ASTRO (아스트로) </div>
   const titleName14 = <div>WAYV (威神V)</div>
   const titleName15 = <div>TWICE (두 배) </div>
+
+ /* const titleNameTest = "TWICE (두 배)"
   
+  const arrProfile = [
+    {name: "TWICE (두 배)", img: "https://www.btblackxswan.com/wp-content/uploads/2021/07/86a7d1db-535f-4674-8116-837c11e6f952.jpg"},
+    {name: "TWICE (두 배)", img: "https://www.btblackxswan.com/wp-content/uploads/2021/07/86a7d1db-535f-4674-8116-837c11e6f952.jpg"}
+  ]
   
-  
+  function onClickProfile(item) {
+    console.log(item)
+  }*/
   
 
   return (
     
     <div style={{ padding: '12px'}}>
-      <Row justify="center">
+       <Row justify="center">
       <Col xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
         cover={<img alt="example" src="https://www.btblackxswan.com/wp-content/uploads/2021/07/86a7d1db-535f-4674-8116-837c11e6f952.jpg" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
-
       >{titleName1}
       </Card></Col>
       
@@ -180,7 +184,7 @@ export default function ContentBoxprofile() {
 
       >{titleName15}
       </Card></Col>   
-    </Row></p>
+    </Row></p> 
          
           
       

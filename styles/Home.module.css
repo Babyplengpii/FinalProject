@@ -103,7 +103,7 @@
   line-height: 1.5;
 }
 
-img {
+.img {
   height: 100px;
   width: 300px;
   border: 2px solid black;
@@ -132,3 +132,4 @@ img {
     flex-direction: column;
   }
 }
+
