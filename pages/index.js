@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import Login from '../components/Login'
+//import Login from '../components/Login'
 import ReactDOM from 'react-dom';
 import Carousel from '../components/carousel'
 import NewsContent from '../components/NewsContent';

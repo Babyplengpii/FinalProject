@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import ReactDOM from 'react-dom';
-import Registerblock  from '../components/Registerblock'
+import RegistrationForm  from '../components/Regis2'
 import { background } from '@chakra-ui/react';
 
 
@@ -12,9 +12,9 @@ export default function aboutus() {
       backgroundRepeat: 'no-repeat',}}>
         <Header/>
         <br></br>
-        <br></br>ม
+        <br></br>
          <br></br>
-         <Registerblock/>
+         <RegistrationForm/>
       </div>
     )
   }
